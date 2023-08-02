@@ -9,3 +9,9 @@ const myString = 'Variables are great.';
 
 // q1 - c 
 const myBoolean = false;
+
+// ex 2 - arrays 
+// q1 - You must define an array with the following three variables: (a) - A string which has the value of "What is the meaning of life?" (b) - A number which has a value of 42 (c) -A boolean which has a value of true
+
+// q1 - a,b,c
+var ex2array = new Array('What is the meaning of life?',42,true);
