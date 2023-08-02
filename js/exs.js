@@ -22,3 +22,10 @@ var myArray = new Array(40,41);
 myArray.push(42);
 myArray.shift();
 
+// ex 3 - Operators
+// In this exercise, you do the following: (a) Connect the firstName and lastName to construct the variable fullName, but with a space (" ") in between the first and last name. (b) Multiply the variable myNumber by 2 and put the result in meaningOfLife
+var firstName = 'John';
+var lastName = 'Doe';
+var fullName = firstName + ' ' + lastName;
+
+console.log(fullName)
