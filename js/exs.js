@@ -27,5 +27,6 @@ myArray.shift();
 var firstName = 'John';
 var lastName = 'Doe';
 var fullName = firstName + ' ' + lastName;
-
-console.log(fullName)
+var age = 20;
+var meaningOfLife = age *= 2;
+console.log(meaningOfLife)
