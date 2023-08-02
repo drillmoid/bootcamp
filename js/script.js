@@ -57,3 +57,40 @@ languages.shift();
 
 var android_languages = languages.splice(0,4);
 
+// operators
+// the addition operator - (+) > used for both addition and concatenation of strings
+
+// addition
+var hands = 2;
+var legs = 2;
+var limbs = hands + legs;
+
+// concatenation
+var first_name = 'John';
+var last_name = 'Doe';
+var age = 23;
+
+console.log('Hi, my name is ' + first_name + ' ' + last_name + '. I am ' + age + ' years old.');
+
+// mathematical operators
+// subtract - (-)
+console.log(2 - 1);
+
+// multiply - (*)
+console.log(2 * 1);
+
+// divide - (/)
+console.log(2 / 1);
+
+// advanced mathematical operators
+// modulus - (%) - calculate the remainder of division
+console.log(4 % 3);
+
+// combined assignment
+var age = 23;
+age += 1; // instead of var age = age + 1
+console.log(age);
+
+// assignmet extends to - (*,-,/,%)  > *=,/=,-=,%=
+
+// more mathematics - js has a math module for advanced functions > abs - absolute value of a number, pow - powers of numbers x & y , etc
