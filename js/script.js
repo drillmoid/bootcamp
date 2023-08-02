@@ -15,3 +15,4 @@ const undefinedvariable;
 console.log(undefinedvariable); // prints out undefined which implies that the variable has no value assigned 
 const emptyvariable = null; // prints out null meaning that the variable is empty 
 
+
