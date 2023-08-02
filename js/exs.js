@@ -15,3 +15,10 @@ const myBoolean = false;
 
 // q1 - a,b,c
 var ex2array = new Array('What is the meaning of life?',42,true);
+
+// ex 3 - manipulating arrays 
+// q1 - You must manipulate the array called myArray and do the following (a) - Push the number 42 to the end of the array (b) - Shift a variable from the beginning of the array 
+var myArray = new Array(40,41);
+myArray.push(42);
+myArray.shift();
+
