@@ -22,7 +22,7 @@ var myArray = new Array(40,41);
 myArray.push(42);
 myArray.shift();
 
-// ex 3 - Operators
+// ex 4 - Operators
 // In this exercise, you do the following: (a) Connect the firstName and lastName to construct the variable fullName, but with a space (" ") in between the first and last name. (b) Multiply the variable myNumber by 2 and put the result in meaningOfLife
 var firstName = 'John';
 var lastName = 'Doe';
@@ -30,3 +30,13 @@ var fullName = firstName + ' ' + lastName;
 var age = 20;
 var meaningOfLife = age *= 2;
 console.log(meaningOfLife)
+
+// ex 5 - Conditions
+// In this exercise, you must construct an if inside the checkNumber function statement that checks if the number myNumber is equal to 42. If that is the case, the function must print out using console.log the word correct. If myNumber is not equal to 42, the function must print out using console.log the word incorrect. You can name the argument passed to a function by supplying the name inside the parentheses. For example, function myFunction(myArgument).
+function checkNumber(myNumber){
+  if (myNumber != 42){
+    console.log('incorrect');
+  }
+};
+
+checkNumber(34);
